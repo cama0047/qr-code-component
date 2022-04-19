@@ -1,20 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Outfit', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: hsl(212, 45%, 89%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,11 +15,47 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+ 
+
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  background-color: white;
+  width: 375px;
+  height:fit-content;
+  border-radius: 15px;
 }
+.QRContainer{
+  margin:15px;
+  
+}
+
+.QRContainer > img{
+  max-width:100%;
+  max-height: 50%;
+  border-radius: 15px;
+}
+
+
+.QRBody{
+  font-size: 15px;
+  color: black;
+  padding:10px;
+}
+
+.QRBody>h2{
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.QRBody>p{
+  text-align: center;
+  color:hsl(220, 15%, 55%);
+  padding: 20px;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
