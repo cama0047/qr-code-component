@@ -40,28 +40,21 @@
 .QRBody{
   font-size: 15px;
   color: black;
-  padding:10px;
+  padding: 0 20px 0 20px;
+  text-align: center;
 }
 
 .QRBody>h2{
-  text-align: center;
+  
   margin: 10px;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 25px;
 }
 .QRBody>p{
+  
+  color:hsl(219, 16%, 58%);
+  padding: 0 35px 20px 35px;
   text-align: center;
-  color:hsl(220, 15%, 55%);
-  padding: 20px;
 }
 
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
